@@ -1,0 +1,22 @@
+{
+  "name": "pizzaria-website",
+  "version": "1.0.0",
+  "description": "Place your order online at the world's largest pizzeria! Various types of pizzas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipemorai/Pizzaria-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felipemorai/Pizzaria-Website/issues"
+  },
+  "homepage": "https://github.com/Felipemorai/Pizzaria-Website#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
+}
