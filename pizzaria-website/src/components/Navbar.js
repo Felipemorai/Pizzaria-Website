@@ -9,7 +9,10 @@ function Navbar() {
                 <img src={Logo}/>
             </div>
             <div className="rightSide"> 
-                <Link> Home </Link>
+                <Link to="/"> Home </Link>
+                <Link to="/menu"> Menu </Link>
+                <Link to="/about"> About </Link>
+                <Link to="/contact"> Contact </Link>
             </div>
         </div>
     )
