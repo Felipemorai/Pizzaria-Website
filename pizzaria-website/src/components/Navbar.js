@@ -15,9 +15,12 @@ function Navbar() {
                 <Link to="/menu"> Menu </Link>
                 <Link to="/about"> About </Link>
                 <Link to="/contact"> Contact </Link>
+                <button>
+                  <ReorderIcon />
+                </button>
             </div>
         </div>
-    )
+    );
 }
 
 export default Navbar
