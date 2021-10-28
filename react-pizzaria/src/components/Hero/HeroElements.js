@@ -62,5 +62,7 @@ export const HeroBtn = styled.button`
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #e31837;
+    box-shadow: 1px 1px 5px #adb5bd;
   }
 `
+;
