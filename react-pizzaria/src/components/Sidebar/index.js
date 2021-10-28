@@ -1,4 +1,6 @@
 import React from 'react';
+import { SidebarContainer, Icon, CloseIcon, SidebarMenu,
+SidebarLink, SidebarRoute, SideBtnWrap } from './SidebarElements';
 
 const Sidebar = () => {
     return (
@@ -11,6 +13,9 @@ const Sidebar = () => {
                 <SidebarLink to="/">Desserts</SidebarLink>
                 <SidebarLink to="/">Full menu</SidebarLink>
             </SidebarMenu>
+            <SideBtnWrap>
+                <SidebarRoute to="/">Order Now</SidebarRoute>
+            </SideBtnWrap>
         </SidebarContainer>
     )
 }
