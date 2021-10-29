@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { FaTImes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 
 export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 350px;
   height: 100%;
-  background: #ffc500;
+  background: #f8f9fa;
   display: grid;
   align-items: center;
   top: 0;
   transition: 0.3s ease-in-out;
-  right: ${({ isOpen }) => (isOpen ? '0' : '-1000px') };
+  right: ${({ isOpen }) => (isOpen ? '0' : '0') };
 
   @media screen and (max-width: 400px) {
     width: 100%;
@@ -61,6 +61,7 @@ export const SidebarLink = styled(Link)`
   &:hover {
     color: #e31837;
     transition: 0.2s ease-in-out;
+    text-shadow: 1px 1px 5px #adb5bd;
   }
 `;
 
@@ -77,6 +78,8 @@ export const SidebarRoute = styled(Link)`
   font-size: 16px;
   outline: none;
   border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #adb5bd;
   cursor: pointer;
   transition 0.2s ease-in-out;
   text-decoration: none;
@@ -84,6 +87,7 @@ export const SidebarRoute = styled(Link)`
   &:hover {
     transition: 0.2s ease-in-out;
     background: #fff;
-    color: #010606;
+    color: #e31837;
+    box-shadow: 1px 5px 10px #adb5bd; 
   }
 `;
