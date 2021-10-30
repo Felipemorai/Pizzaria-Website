@@ -1,3 +1,7 @@
+import product1 from '../../images/Supreme Pizza.jpg';
+import product2 from '../../images/Hawaiian Paradise.jpg';
+import product3 from '../../images/Veggie Overload.jpg';
+
 export const productData = [
     {
         img: product1,
