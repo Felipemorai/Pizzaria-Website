@@ -19,4 +19,28 @@ export const FeatureContainer = styled.div`
   h1 {
       font-size: clamp(3rem, 5vw, 5rem);
   }
+
+  p {
+      margin-bottom: 1rem;
+      font-size: clamp(1rem, 3vw, 2rem);
+  }
+`
+
+export const FeatureButton = styled.button`
+  font-size: 1.4rem;
+  padding: 0.6rem 3rem;
+  border: none;
+  background: #e31837;
+  color: #fff;
+  transition: 0.2s ease-out;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #adb5bd;
+
+  &:hover {
+      color: #e31837;
+      background: #fff;
+      transition: 0.2s ease-out;
+      cursor: pointer;
+      box-shadow: 1px 5px 10px #adb5bd;
+  }
 `
