@@ -56,13 +56,14 @@ export const HeroBtn = styled.button`
   background: #e31837;
   color: #fff;
   transition: 0.2s ease-out;
+  box-shadow: 1px 1px 5px 495057;
 
   &:hover {
     background: #fff;
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #e31837;
-    box-shadow: 1px 1px 5px #adb5bd;
+    box-shadow: 1px 5px 10px #495057;
   }
 `
 ;

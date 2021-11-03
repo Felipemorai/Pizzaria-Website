@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import FeaturePic from '../../images/Pizza feature3.jpg'
+import FeaturePic from '../../images/Pizza-feature3.jpg'
 
 export const FeatureContainer = styled.div`
-  background: linear-grandient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0, 0.1)),
-  url(${FeaturePic});
+background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+url(${FeaturePic});
   height: 100vh;
   max-height: 500px;
   background-position: center;
@@ -24,7 +24,7 @@ export const FeatureContainer = styled.div`
       margin-bottom: 1rem;
       font-size: clamp(1rem, 3vw, 2rem);
   }
-`
+`;
 
 export const FeatureButton = styled.button`
   font-size: 1.4rem;
@@ -34,13 +34,13 @@ export const FeatureButton = styled.button`
   color: #fff;
   transition: 0.2s ease-out;
   border-radius: 5px;
-  box-shadow: 1px 1px 5px #adb5bd;
+  box-shadow: 1px 1px 5px #495057;
 
   &:hover {
       color: #e31837;
       background: #fff;
       transition: 0.2s ease-out;
       cursor: pointer;
-      box-shadow: 1px 5px 10px #adb5bd;
+      box-shadow: 1px 5px 10px #495057;
   }
 `
