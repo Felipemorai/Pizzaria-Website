@@ -35,26 +35,26 @@ export const productData = [
 export const productDataTwo = [
     {
         img: doughnut,
-        alt: 'Pizza',
-        name: 'Supreme Pizza',
-        desc: 'Bacon, pepperoni slices, red and green bell pepper, red onion, black olives, mozzarella, parmesan and basil',
-        price: '$19.99',
+        alt: 'Sweet',
+        name: 'Doughlicious',
+        desc: 'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
+        price: '$9.99',
         button: 'Add to Cart'
     },
     {
         img: caramel,
-        alt: 'Pizza',
-        name: 'Hawaiian Paradise',
-        desc: 'Combines pizza sauce, cheese, cooked ham, and pineapple',
-        price: '$16.99',
+        alt: 'Sweet',
+        name: 'Caremel Wonder',
+        desc: 'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
+        price: '$12.99',
         button: 'Add to Cart'
     },
     {
         img: brownie,
-        alt: 'Pizza',
-        name: 'Veggie Oveload',
-        desc: 'Cherry tomatoes, artichoke, bell pepper, olives, tomato sauce, mozzarell, red onion and spinach',
-        price: '$14.99',
+        alt: 'Sweet',
+        name: 'Brownie Bunch',
+        desc: 'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
+        price: '$9.99',
         button: 'Add to Cart'
     }
 ];
