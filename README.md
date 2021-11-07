@@ -1,3 +1,5 @@
+<h1 align="center"><img src="https://user-images.githubusercontent.com/82244432/140628652-9c61f467-696d-4ae9-9e33-123a08b1ae84.png"/></h1>
+
 <h1 align="center"> Pizzaria Website </h1>
 <p align="center"> Place your order online at the world's largest pizzeria! Various types of pizzas </p>
 
